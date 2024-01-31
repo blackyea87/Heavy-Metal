@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header#menu_principal {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    padding: 20px;
+    padding-left: 40px;
+    padding-right: 55px;
+    width: 100vw;
+    border-bottom: 2px solid rgb(228, 228, 228);
+    background-color: white;
+}
+
+h1#logo_01 {
+    font-size: 32px;
+    font-family: 'IM Fell Double Pica', serif;
+}
+
+ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style-type: none;
+    height: 100%;
+    gap: 100px;
+    font-size: 32px;
+    font-family: 'IM Fell Double Pica', serif;
+    transform: skew(-20deg, 0deg);
+}
+
+a {
+    font-family: 'IM Fell Double Pica', serif;
+    text-decoration: none;
+    color: black;
+}
+
+div#slider {
+    display: flex;
+    justify-content: center;
+}
+
+img#main_knife {
+    width: 1440px;
+    height: 555px;
+    margin-bottom: 40px;
+    margin-top: 90px;
+}
+
+div#bigbox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    padding: 40px;
+}
+
+div.box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+img.sec_knives {
+    width: 330px;
+    height: 400px;
+}
+
+div.textBox {
+    padding: 30px;
+}
+
+h2#knifeName_01 {
+    margin-bottom: 40px;
+    margin-left: 99px;
+    font-size: 32px;
+    font-family: 'IM Fell Double Pica', serif;
+    transform: skew(-20deg, 0deg);
+}
+
+p.lorem_01 {
+    font-size: 24px;
+    text-align: right;
+    width: 280px;
+    font-family: 'Iceberg', sans-serif;
+}
+
+h2#knifeName_02 {
+    margin-bottom: 40px;
+    margin-right: 90px;
+    font-size: 32px;
+    font-family: 'IM Fell Double Pica', serif;
+    transform: skew(-20deg, 0deg);
+}
+
+p.lorem_02 {
+    font-size: 24px;
+    text-align: left;
+    width: 280px;
+    font-family: 'Iceberg', sans-serif;
+}

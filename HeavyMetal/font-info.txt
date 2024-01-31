@@ -1,0 +1,11 @@
+Font-families:
+Titles/Logo - IM FELL Double Pica
+Texts - Iceberg
+
+Font-sizes:
+Titles/Logo- 32px;
+Texts- 24px;
+
+Colors:
+Font Colors- #130B0B;
+Background colors - #FFFFFF;
